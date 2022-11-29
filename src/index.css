@@ -1,0 +1,16 @@
+.body {
+    background: #166e78;
+    background-image: linear-gradient(180deg, rgba(13, 77, 84, 0), #0d4d54 77%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.root {
+    background: #166e78;
+    background-image: linear-gradient(180deg, rgba(13, 77, 84, 0), #0d4d54 77%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+}

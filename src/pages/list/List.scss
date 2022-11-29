@@ -1,0 +1,28 @@
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 42px;
+    width: 100%;
+    .header{
+        
+    }
+}
+
+.submit-button{
+    min-width: 20rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+    line-height: 2.4rem;
+    margin-top: 12px;
+    padding: 1.7rem 1.8rem 1.7rem 2.2rem;
+    color: #fff;
+    background: #2ce6ce;
+    width: fit-content;
+    border: 1px solid #2ce6ce;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+.card {
+  margin: 1.5rem 0 0;
+  border-radius: 0.3rem;
+  background: #fff;
+  padding-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  max-width: 50%;
+  display: flex;
+  justify-self: flex-start;
+  flex-direction: column;
+  .card-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .minor {
+        color: #2ce6ce;
+        font-size: 18px;
+        padding: 1rem 3rem 0;
+      }
+
+      .index {
+        padding-top: 0.6rem;
+        margin: 0 3rem;
+        color: #c3c3c3;
+        font-size: 12px;
+      }
+  }
+  .card-description{
+     color: #757575;
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 90%;
+      text-align: start;
+      padding: 2rem 3rem 0;
+  }
+  .comment{
+    display: flex;
+    padding-left: 42px;
+    width: 100%;
+    margin-top: 12px;
+  }
+  .add-btn{
+    margin-top: 2rem;
+    padding: 0;
+    background: none;
+    border: none;
+    color: #2ce6ce;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .card-textarea{
+    min-height: 80px;
+    width: 80%;
+    padding: 1.5rem;
+    font-size: 14px;
+    text-align: start;
+    color: #474747;
+    border: 2px solid #dedede;
+    border-radius: 0.3rem;
+  }
+}
+
+.card-default{
+  background: #1b828e;
+  .card-description{
+    color:#fff;
+  }
+  .card-middle-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .circular-container{
+    display: flex;
+    box-sizing: border-box;
+    flex: 0 0 8.9rem;
+    height: 8.9rem;
+    width: 8.9rem;
+    align-items: center;
+    background: #0d4d54;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 8.9rem;
+  }
+}
+  
+.xContainer {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin-top: 1rem;
+  padding: 0 3.5rem;
+  .action-container{
+    font-size: 16px;
+    max-width: 80%;
+    color: #4a4a4a;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 0 0;
+  }
+}
+
+.subtleButton {
+  path {
+    fill: var(--colorWaterloo);
+  }
+}
